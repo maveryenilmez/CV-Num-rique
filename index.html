@@ -1,12 +1,323 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CV numérique dévellopeur web</title>
 </head>
+
 <body>
-    
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+            <!-- Container wrapper -->
+            <div class="container-fluid" id="navbar">
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav offset-5 me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#about">A PROPOS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">COMPÉTENCES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">PARCOURS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">RÉALISATIONS</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+    </header>
+
+    <main class="flex-grow-1">
+        <!-- Page d'acceuil avec l'animation -->
+        <section class="slide one">
+            <div id="home">
+                <video id="myvideo" src="./assets/video/video de fond.mp4" autoplay muted loop></video>
+                <div class="content">
+                    <h1 id="covername">MAVER YENILMEZ</h1>
+                    <h2 id="covertitle">
+                        <a class="rolling-text" href="#">
+                            Développeuse web - Junior
+                        </a>
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page "à propos" -->
+        <section id="about" class="slide two text-white min-vh-100 d-flex flex-column">
+            <h1 class="offset-1 mt-5">A PROPOS</h1>
+
+            <div class="container">
+                <div class="row">
+                    <div id="partimage" class="col-md-5")">
+                        <div class="offset-3 mt-5">
+                            <ul>
+                                <li>Nom : Maver YENILMEZ</li>
+                                <li>Age: 23 ans</li>
+                                <li>Ville actuelle : Compiègne - Amiens</li>
+                                <li>Hobbies : tir à l’arc, cuisine turc, 
+                                    art créatifs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="parttext" class="col-md-7">
+                        <div>
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
+                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                            <br>
+                            <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Telecharger mon CV</a>
+                            <a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Contacter</a>
+                        </div>
+                    </div>
+                    <!-- fin de partie TEXT -->
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Page "compétences" -->
+        <section id="skills" class="slide tree text-white min-vh-100 d-flex flex-column">
+            <h1 class="offset-1 mt-5">COMPÉTENCES</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="savoirfaire">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page "parcours" -->
+        <section id="experience" class="slide four text-white min-vh-100 d-flex flex-column">
+            <h1 class="offset-1 mt-5">PARCOURS</h1>
+            <!-- <span class="vertical"></span> 
+                <div class="right"></div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-timeline4">
+
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2022</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Titre professionnel " Dévellopeur Web & Web mobile"
+                                        </h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
+                                            odio,
+                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
+                                            eget
+                                            dui auctor.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2018-2021</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Service Clientèle multicompétences</h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
+                                            odio,
+                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
+                                            eget
+                                            dui auctor.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2016-2018</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">DUT : Gestion des entreprises et des administrations
+                                        </h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
+                                            odio,
+                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
+                                            eget
+                                            dui auctor.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2018</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Communication - Foligraf Studio </h3>
+                                        <p class="description">
+                                            Réalisation d'un flyer
+                                            La veille concurrentiel de la start-up.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2017</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Stage : Comptabilité - Mairie de Compiègne</h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
+                                            odio,
+                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
+                                            eget
+                                            dui auctor.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2016</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Baccalauréat économique et social</h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
+                                            odio,
+                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
+                                            eget
+                                            dui auctor.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page "réalisation" -->
+        <section id="projects" class="slide five text-white min-vh-100 d-flex flex-column">
+            <h1 class="offset-1 mt-5">RÉALISATIONS</h1>
+            <div class="container">
+                <div class="row">
+                    <link rel="stylesheet"
+                            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+                            integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+                            crossorigin="anonymous">
+                        <div class="container-fluid">
+
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project wow animated animated4 fadeInLeft">
+                                <div class="project-hover">
+                                    <h2>BLOG WORDPRESS</h2>
+
+                                    <hr />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
+                                        pulvinar est laoreet ullamcorper.</p>
+                                    <a href="#">Voir le project</a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-2 wow animated animated3 fadeInLeft">
+                                <div class="project-hover">
+                                    <h2>TITLE</h2>
+                                    <hr />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
+                                        pulvinar est laoreet ullamcorper.</p>
+                                    <a href="#">Voir le project</a>
+                                </div>
+                            </div>
+                            <div
+                                class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-3 wow animated animated2 fadeInLeft">
+                                <div class="project-hover">
+                                    <h2>TITLE</h2>
+                                    <hr />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
+                                        pulvinar est laoreet ullamcorper.</p>
+                                    <a href="#">Voir le project</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-4 wow animated fadeInLeft">
+                                <div class="project-hover">
+                                    <h2>TITLE</h2>
+                                    <hr />
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
+                                        pulvinar est laoreet ullamcorper.</p>
+                                    <a href="#">Voir le project</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- FIN DE PAGE REALISATION -->
+
+        <!-- Page "contact" -->
+        <section id="contact" class="slide six text-white min-vh-100 d-flex flex-column">
+            <h1 class="offset-1 mt-5">CONTACT</h1>
+            <div class="mb-3 ">
+                <label for="exampleFormControlInput1" class="form-label">Adresse Mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Votre Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer class="fixed-bottom">
+
+    </footer>
+
+
+    </div>
+
+
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
