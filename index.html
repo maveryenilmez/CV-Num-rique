@@ -3,152 +3,288 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>CV Maver YENILMEZ</title>
+    <link href="/assets/img/myfavicon.png" rel="icon" type="image/x-icon" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>CV numérique dévellopeur web</title>
+    <link rel="stylesheet" href="assets/css/styleContact.css">
+    <link rel="stylesheet" href="assets/css/styleFortune.css">
+    <link rel="stylesheet" href="assets/css/styleExperiences.css">
+    <link rel="stylesheet" href="assets/css/styleSkills.css">
+    <link rel="stylesheet" href="assets/css/styleProjects.css">
+
 </head>
 
 <body>
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
-            <!-- Container wrapper -->
-            <div class="container-fluid" id="navbar">
-
-                <!-- Toggle button -->
-                <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark anim-nav">
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/assets/img/M (1).png" alt="logo CV" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left links -->
-                    <ul class="navbar-nav offset-5 me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#about">A PROPOS </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">COMPÉTENCES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">PARCOURS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">RÉALISATIONS</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">CONTACT</a>
-                        </li>
-                    </ul>
-                    <!-- Left links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse d-flex justify-content-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about">A PROPOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#skills">COMPÉTENCES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#experience">PARCOURS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#projects">RÉALISATIONS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- Collapsible wrapper -->
             </div>
-            <!-- Container wrapper -->
+        </nav>
         </nav>
     </header>
 
     <main class="flex-grow-1">
         <!-- Page d'acceuil avec l'animation -->
-        <section class="slide one">
+        <section class="slide one text-white min-vh-100 d-flex flex-column">
             <div id="home">
                 <video id="myvideo" src="./assets/video/video de fond.mp4" autoplay muted loop></video>
                 <div class="content">
                     <h1 id="covername">MAVER YENILMEZ</h1>
-                    <h2 id="covertitle">
-                        <a class="rolling-text" href="#">
-                            Développeuse web - Junior
-                        </a>
-                    </h2>
+                    <hr>
+                    <p><strong>Dévellopeuse Web et Web Mobile</strong></p>
                 </div>
             </div>
         </section>
 
         <!-- Page "à propos" -->
-        <section id="about" class="slide two text-white min-vh-100 d-flex flex-column">
-            <h1 class="offset-1 mt-5">A PROPOS</h1>
+        <section id="about" class="slide two min-vh-100 d-flex flex-column">
+            &nbsp;
+            <h1 id="aboutTitle" class="offset-1 mt-5">A PROPOS</h1>
 
-            <div class="container">
-                <div class="row">
-                    <div id="partimage" class="col-md-5")">
-                        <div class="offset-3 mt-5">
+            <div class="container-fluid ">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-md-5 partImg d-flex align-items-center text-white">
+                        <div class="offset-2 mt-5">
                             <ul>
                                 <li>Nom : Maver YENILMEZ</li>
                                 <li>Age: 23 ans</li>
-                                <li>Ville actuelle : Compiègne - Amiens</li>
-                                <li>Hobbies : tir à l’arc, cuisine turc, 
-                                    art créatifs</li>
+                                <li>Ville actuelle : Compiègne</li>
+                                <li>Hobbies : tir à l’arc,art créatifs (ebru art)</li>
                             </ul>
                         </div>
                     </div>
-                    <div id="parttext" class="col-md-7">
-                        <div>
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bl
-                            Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                            <br>
-                            <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Telecharger mon CV</a>
-                            <a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Contacter</a>
+                    <div id="parttext" class="col-12 col-md-7">
+                        <div class="text-center">
+                            3 ans d’expérience en tant que conseillère clientèle.<br>
+                            Dans le cadre de mon reconversion professionnel,<br>
+                            j'ai découvert l'univers de dévellopement web.<br>
+                            Développeuse Full Stack, passionnée avec une affinité pour le Front-end.<br>
+                            Actuellement en freelance, je reste à l'écoute du marcher et à la recherche d'une
+                            opportunité en CDI en tant que développeuse web et mobile<br>
+
+                            <div class="pen-container d-flex justify-content-center">
+                
+                                <a href="/assets/pdf/CV_Maver_YENILMEZ.pdf" target="_blank" class="cv-button m-2 mt-4">
+                                    Télécharger le CV
+                                </a>
+            
+                            </div>
+
+
                         </div>
                     </div>
                     <!-- fin de partie TEXT -->
                 </div>
             </div>
+
         </section>
+
 
 
         <!-- Page "compétences" -->
         <section id="skills" class="slide tree text-white min-vh-100 d-flex flex-column">
-            <h1 class="offset-1 mt-5">COMPÉTENCES</h1>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+
+            <h1 id="skillsTitle" class="offset-1 mt-5">COMPÉTENCES</h1>
             <div class="container">
-                <div class="row">
-                    <div class="col" id="savoirfaire">
-                        
+                <div class="row mt-3 d-flex justify-content-center row text-center align-items-center">
+                    <div class="col-6 col-sm-2">
+                        <img src="/assets/img/icons8-drawing-50.png" alt="" class="">
+                        <p>Design</p>
+                    </div>
+                    <div class="col-6 col-sm-2">
+                        <img src="/assets/img/icons8-code-50.png" alt="" class="">
+                        <p class="mt-2">Code Propre</p>
+                    </div>
+                    <div class="col-6 col-sm-2">
+                        <img src="/assets/img/icons8-developer-mode-64.png" alt="" class="">
+                        <p>Responsive</p>
+                    </div>
+                    <div class="col-6 col-sm-2">
+                        <img src="/assets/img/icons8-hips-64.png" alt="" class="">
+                        <p>Sécurité</p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="large-12 columns ">
+                        <hgroup>
+                            <div class="d-flex justify-content-center">
+                                <h3>Compétences informatiques</h3>
+                            </div>
+
+                        </hgroup>
+
+
+                        <ul class="small-block-grid-2 medium-block-grid-3 flip-cards">
+
+                            <li ontouchstart="this.classList.toggle('hover');">
+                                <div class="large button card-front">
+                                    <p>FRONT-END</p>
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div class="panel card-back">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <div class="hub-info">
+                                        <p>FRONT-END</p>
+                                        <p>Les éléments visibles directement sur un site web.
+                                        </p>
+                                    </div>
+                                    <small class="clear">HTML, CSS, Javascript</small>
+                                </div>
+                            </li>
+
+                            <li ontouchstart="this.classList.toggle('hover');">
+                                <div class="large button card-front">
+                                    <p>FRONT-BACK</p>
+                                    <i class="fa fa-pencil-square-o card-icon"></i>
+                                </div>
+
+                                <div class="panel card-back">
+                                    <i class="fa fa-pencil-square-o card-icon"></i>
+                                    <div class="hub-info">
+                                        <p>FRONT-BACK</p>
+                                        <p>La partie invisible de la conception d’un site internet
+                                        </p>
+                                    </div>
+                                    <small class="clear">Javascript, PHP </small>
+                                </div>
+                            </li>
+
+                            <li ontouchstart="this.classList.toggle('hover');">
+                                <div class="large button card-front">
+                                    <p>FRAMEWORKS</p>
+                                    <i class="fa fa-paper-plane-o card-icon"></i>
+                                </div>
+
+                                <div class="panel card-back">
+                                    <i class="fa fa-paper-plane-o card-icon"></i>
+                                    <div class="hub-info">
+                                        <p>FRAMEWORKS</p>
+                                        <p>Bibliothèque de fonctionnalités.
+                                        </p>
+                                    </div>
+                                    <small class="clear">BOOTSTRAP</small>
+                                </div>
+                            </li>
+
+                            <li ontouchstart="this.classList.toggle('hover');">
+                                <div class="large button card-front">
+                                    <p>DESIGN</p>
+                                    <i class="fa fa-map-o card-icon"></i>
+                                </div>
+
+                                <div class="panel card-back">
+                                    <i class="fa fa-map-o card-icon"></i>
+                                    <div class="hub-info">
+                                        <p>DESIGN</p>
+                                        <p>Rélaisation maquettage et prototypes.
+                                        </p>
+                                    </div>
+                                    <small class="clear">Adobe XD, Figma</small>
+                                </div>
+                            </li>
+
+                            <li ontouchstart="this.classList.toggle('hover');">
+                                <div class="large button card-front">
+                                    <p>CMS</p>
+                                    <i class="fa fa-language card-icon"></i>
+                                </div>
+
+                                <div class="panel card-back">
+                                    <i class="fa fa-language card-icon"></i>
+                                    <div class="hub-info">
+                                        <p>CMS</p>
+                                        <p>Content Management System (système de gestion de contenu)
+                                        </p>
+                                    </div>
+                                    <small class="clear">WORDPRESS</small>
+                                </div>
+                            </li>
+
+                            <li ontouchstart="this.classList.toggle('hover');">
+                                <div class="large button card-front">
+                                    <p>BASE DE DONNÉES</p>
+                                    <i class="fa fa-users card-icon"></i>
+                                </div>
+
+                                <div class="panel card-back">
+                                    <i class="fa fa-users card-icon"></i>
+                                    <div class="hub-info">
+                                        <p>BASE DE DONNÉES</p>
+                                        <p>Manipuler les différentes données stockées dans une base de données.</p>
+                                    </div>
+                                    <small class="clear">MySQL , JMerise</small>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
             </div>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
+            </svg>
         </section>
 
-        <!-- Page "parcours" -->
+
+
+        <!-- Page "expérience" -->
         <section id="experience" class="slide four text-white min-vh-100 d-flex flex-column">
-            <h1 class="offset-1 mt-5">PARCOURS</h1>
-            <!-- <span class="vertical"></span> 
-                <div class="right"></div> -->
+            &nbsp;
+            <h1 id="experienceTitle" class="offset-1 mt-5">PARCOURS</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="main-timeline4">
-
                             <div class="timeline">
                                 <a class="timeline-content">
                                     <span class="year">2022</span>
                                     <div class="inner-content">
-                                        <h3 class="title">Titre professionnel " Dévellopeur Web & Web mobile"
+                                        <h3 class="title">Titre professionnel BAC+2 Dévellopeur Web & Web mobile
                                         </h3>
-                                        <p class="description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-                                            odio,
-                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
-                                            eget
-                                            dui auctor.
-                                        </p>
+                                        
                                     </div>
                                 </a>
                             </div>
@@ -156,29 +292,9 @@
                                 <a class="timeline-content">
                                     <span class="year">2018-2021</span>
                                     <div class="inner-content">
-                                        <h3 class="title">Service Clientèle multicompétences</h3>
+                                        <h3 class="title">CDI - Service Clientèle multicompétences à WEBHELP</h3>
                                         <p class="description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-                                            odio,
-                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
-                                            eget
-                                            dui auctor.
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="timeline">
-                                <a class="timeline-content">
-                                    <span class="year">2016-2018</span>
-                                    <div class="inner-content">
-                                        <h3 class="title">DUT : Gestion des entreprises et des administrations
-                                        </h3>
-                                        <p class="description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-                                            odio,
-                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
-                                            eget
-                                            dui auctor.
+                                            Relation client via différents moyens de la communication ( Appels entrants & sortants, mails, chat et certification). Contrat en CDI
                                         </p>
                                     </div>
                                 </a>
@@ -187,7 +303,17 @@
                                 <a class="timeline-content">
                                     <span class="year">2018</span>
                                     <div class="inner-content">
-                                        <h3 class="title">Communication - Foligraf Studio </h3>
+                                        <h3 class="title">DUT GEA : GESTION DES ENTREPRISES ET DES ADMINISTRATIFS à
+                                            VALENCIENNES </h3>
+                                        
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <a class="timeline-content">
+                                    <span class="year">2018</span>
+                                    <div class="inner-content">
+                                        <h3 class="title">Stage Communication - Foligraf Studio </h3>
                                         <p class="description">
                                             Réalisation d'un flyer
                                             La veille concurrentiel de la start-up.
@@ -201,103 +327,153 @@
                                     <div class="inner-content">
                                         <h3 class="title">Stage : Comptabilité - Mairie de Compiègne</h3>
                                         <p class="description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-                                            odio,
-                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
-                                            eget
-                                            dui auctor.
+                                            La saisie des pièces comptables.
                                         </p>
                                     </div>
                                 </a>
                             </div>
+
                             <div class="timeline">
                                 <a class="timeline-content">
                                     <span class="year">2016</span>
                                     <div class="inner-content">
                                         <h3 class="title">Baccalauréat économique et social</h3>
-                                        <p class="description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-                                            odio,
-                                            rhoncus sit amet tincidunt eu, suscipit a orci. In suscipit quam
-                                            eget
-                                            dui auctor.
-                                        </p>
                                     </div>
                                 </a>
                             </div>
+                            &nbsp;
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Page "réalisation" -->
+
+        <!-- Réalisations  -->
         <section id="projects" class="slide five text-white min-vh-100 d-flex flex-column">
-            <h1 class="offset-1 mt-5">RÉALISATIONS</h1>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+            <h1 id="projectsTitle" class="offset-1 mt-5">RÉALISATIONS</h1>
             <div class="container">
                 <div class="row">
-                    <link rel="stylesheet"
-                            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-                            integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-                            crossorigin="anonymous">
-                        <div class="container-fluid">
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
 
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project wow animated animated4 fadeInLeft">
-                                <div class="project-hover">
-                                    <h2>BLOG WORDPRESS</h2>
+                        <div class="hovereffect img-shadow img-fluid">
+                            <img src="/assets/img/MMDB.png" class="projectImage">
+                            <div class="overlay">
+                                <h2>MANU'S MOVIE DATA MOVIES</h2>
+                                <a class="info" href="https://maveryenilmez.github.io/The-Manu-s-Movie-Database/" target="_blank">Voir plus</a>
+                            </div>
+                        </div>
 
-                                    <hr />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
-                                        pulvinar est laoreet ullamcorper.</p>
-                                    <a href="#">Voir le project</a>
-                                </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+
+                        <div class="hovereffect img-shadow">
+                            <img src="/assets/img/Capture d’écran 2022-04-17 à 02.44.03.png" class="projectImage">
+                            <div class="overlay">
+                                <h2>WORDPRESS : AYPARE</h2>
+                                <a class="info" href="https://aypare.wordpress.com/" target="_blank">Voir plus</a>
                             </div>
-                            <div
-                                class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-2 wow animated animated3 fadeInLeft">
-                                <div class="project-hover">
-                                    <h2>TITLE</h2>
-                                    <hr />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
-                                        pulvinar est laoreet ullamcorper.</p>
-                                    <a href="#">Voir le project</a>
-                                </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+
+                        <div class="hovereffect img-shadow">
+                            <img src="/assets/img/Shifumi.png" class="projectImage">
+                            <div class="overlay">
+                                <h2>SHIFUMU</h2>
+                                <a class="info" href="#">Voir plus</a>
                             </div>
-                            <div
-                                class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-3 wow animated animated2 fadeInLeft">
-                                <div class="project-hover">
-                                    <h2>TITLE</h2>
-                                    <hr />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
-                                        pulvinar est laoreet ullamcorper.</p>
-                                    <a href="#">Voir le project</a>
-                                </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="hovereffect img-shadow">
+                            <img src="/assets/img/Capture d’écran 2022-04-17 à 02.44.03.png" class="projectImage">
+                            <div class="overlay">
+                                <h2>SNEAKERS GALLERY </h2>
+                                <a class="info" href="#">Voir plus</a>
                             </div>
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-4 wow animated fadeInLeft">
-                                <div class="project-hover">
-                                    <h2>TITLE</h2>
-                                    <hr />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex
-                                        pulvinar est laoreet ullamcorper.</p>
-                                    <a href="#">Voir le project</a>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
                     </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="hovereffect img-shadow">
+                            <img src="/assets/img/kagitKelam.png" class="projectImage">
+                            <div class="overlay">
+                                <h2>WORDPRESS : KAGIT KELAM</h2>
+                                <a class="info" href="#">Voir plus</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+
+                        <div class="hovereffect img-shadow">
+                            <img src="/assets/img/meltdark.png" class="projectImage">
+                            <div class="overlay">
+                                <h2>MELT-Flux RSS (dark theme)</h2>
+                                <a class="info" href="#">Voir plus</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- FIN DE PAGE REALISATION -->
 
-        <!-- Page "contact" -->
-        <section id="contact" class="slide six text-white min-vh-100 d-flex flex-column">
-            <h1 class="offset-1 mt-5">CONTACT</h1>
-            <div class="mb-3 ">
-                <label for="exampleFormControlInput1" class="form-label">Adresse Mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+        <!-- Fortune Cookies -->
+        <section id="contact" class="slide five text-white min-vh-100 d-flex flex-column">
+            &nbsp;
+            <div class="container-fluid containerFCookies">
+
+                <p class="text-center">Veuillez cliquer sur le fortune cookie✨​​</p>
+                <button class="fc spawned" type="button">
+                    <div class="fc-part leftF"></div>
+                    <div class="fc-part rightF"></div>
+                    <div class="fc-crumbs">
+                        <div class="fc-crumb"></div>
+                        <div class="fc-crumb"></div>
+                        <div class="fc-crumb"></div>
+                        <div class="fc-crumb"></div>
+                        <div class="fc-crumb"></div>
+                        <div class="fc-crumb"></div>
+                        <div class="fc-crumb"></div>
+                        <div class="fc-crumb"></div>
+                    </div>
+                    <div class="fc-fortune">
+                        <p class="fc-fortune-text">No fortune</p>
+                    </div>
+                </button>
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Votre Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            &nbsp;
+            <h1 class="offset-1 mt-5">CONTACT</h1>
+            &nbsp;
+            <div class="pen-container d-flex justify-content-center mt-5">
+                <!-- Custom Lato Font -->
+                <link href="https://fonts.googleapis.com/css?    family=Lato:300,400,700,300italic,400italic,700italic"
+                    rel="stylesheet" type="text/css">
+
+                <!-- Font Awesome -->
+                <script src="https://use.fontawesome.com/3b2b169b3c.js"></script>
+
+                <a href="https://fr.linkedin.com/in/maver-yenilmez-84441b234?trk=people-guest_people_search-card" target="_blank" class="linkedin-button m-2">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/maveryenilmez" target="_blank" class="github-button m-2">
+                    <i class="fa fa-github-alt" aria-hidden="true"></i>
+                    GitHub
+                </a>
             </div>
         </section>
         </div>
@@ -315,9 +491,13 @@
 
 
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
+<footer>
+    <p class="text-center">Maver YENILMEZ © 2022 | La Manu - Ecole supérieure des métiers du numérique </p>
+</footer>
 </html>
